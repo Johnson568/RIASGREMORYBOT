@@ -2,8 +2,8 @@
 const fs = require("fs-extra");
 if (fs.existsSync(".env"))
   require("dotenv").config({ path: __dirname + "/.env" });
-global.audio = "";
-global.video = "";
+global.audio = "www.youtube.com";
+global.video = "www.youtube.com";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "obidikechikadibia@gmail.com";
@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/c21ae479aab857b4f8006.jpg";
+global.userImages = process.env.USER_IMAGES || "https://telegra.ph/file/84a935261759d92084744.mp4";
 global.waPresence = process.env.WAPRESENCE || "recording";
 global.readcmds = process.env.READ_COMMAND || "false";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -37,7 +37,7 @@ global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
 
-global.api_smd = "https://api-smd.onrender.com";
+global.api_smd = "https://api-smd-1.vercel.app";
 global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
