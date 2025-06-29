@@ -18,8 +18,8 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BR
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029Vaex2BtGU3BRQoeEsl0U";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/c21ae479aab857b4f8006.jpg";
 global.devs = "2348086541281";
-global.sudo = process.env.SUDO || "2348086541281";
-global.owner = process.env.OWNER_NUMBER || "2348086541281";
+global.sudo = process.env.SUDO || "2348034625848";
+global.owner = process.env.OWNER_NUMBER || "2348034625848";
 global.style = process.env.STYLE || "1";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -42,7 +42,7 @@ global.scan = "https://riasgremorybot-xcqv.onrender.com/";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "rnd_bp4yHytiJDyNjQeJ64ECIT7dbKLa"
 module.exports = {
   menu: process.env.MENU || "1",
   HANDLERS: process.env.PREFIX || ".",
